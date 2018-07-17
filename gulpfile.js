@@ -21,7 +21,7 @@ gulp.task('clean:dist', function() {
 })
 
 gulp.task('sass', function(){
-	return gulp.src('app/scss/**/*.sass')
+	return gulp.src('app/sass/**/*.sass')
 		.pipe(maps.init())
 		.pipe(sass())
 		.pipe(prefixer())

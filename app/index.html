@@ -23,11 +23,6 @@
 </head>
 
 <body>
-    <!-- add comment -->
-    <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-    <!-- Add your site or application content here -->
     <div>
         fuck you
     </div>
@@ -44,50 +39,6 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/wow.min.js"></script>
-
-    <script>
-        $(document).ready(function() {
-            var owl = $('.home-slider');
-            owl.owlCarousel({
-                items: 1,
-                loop: true,
-                margin: 0,
-                autoplay: true,
-                autoplayTimeout: 4000,
-                autoplayHoverPause: true,
-                dots: false,
-                
-                smartSpeed: 900,
-              
-            });
-
-            
-            
-                
-            
-
-            $('.nav-banner .right').click(function(e){
-                e.preventDefault();
-                owl.trigger("next.owl.carousel")
-                
-            });
-             $('.nav-banner .left').click(function(e){
-                e.preventDefault();
-                owl.trigger("prev.owl.carousel")
-            });
-
-        })
-        function openNav() {
-                            document.getElementById("mennutoggle").style.left = "0%";
-                            }
-
-        function closeNav() {
-                            document.getElementById("mennutoggle").style.left = "-80%";
-                            }
-
-        new WOW().init();
-             
-    </script>
     <!-- endbuild -->
 </body>
 
